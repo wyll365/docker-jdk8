@@ -1,4 +1,3 @@
-
 FROM ubuntu:latest
 LABEL maintainer="AdinZ  1454269@qq.com" 
 ENV LANG="C.UTF-8"

@@ -10,8 +10,8 @@ RUN cd /home/ && \
   apt-get update && \
   apt-get install -y wget && \
   wget  https://xian-app.oss-cn-shenzhen.aliyuncs.com/soft/jdk-8u211-linux-x64.tar.gz && \
-  tar -zxvf jdk-8u211-linux-x64.tar.gz && \ 
-  mv jdk-8u211-linux-x64.tar.gz java && \ 
+  tar -zxvf jdk-8u211-linux-x64.tar.gz && \
+  mv jdk1.8.0_211 java && \
   mv java /usr/lib/java
 
     

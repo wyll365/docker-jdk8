@@ -18,4 +18,4 @@ RUN cd /home/ && \
   mv jdk1.8.0_211 java && \
   mv java /usr/lib/java
 
-    
+   # xianxian java image  by AdinZ  QQ:1454269 

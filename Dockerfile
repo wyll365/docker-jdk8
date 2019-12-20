@@ -11,7 +11,7 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN cd /home/ && \
   apt-get update && \
   apt-get install -y wget && \
-  wget  https://xianxian-docker.oss-cn-hongkong.aliyuncs.com/jdk-8u211-linux-x64.tar.gz && \
+  wget  https://static.xian-xian.com/docker/jdk-8u211-linux-x64.tar.gz && \
   tar -zxvf jdk-8u211-linux-x64.tar.gz -C  /usr/local/ && \
   rm -rf jdk-8u211-linux-x64.tar.gz
 
